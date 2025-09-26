@@ -7,7 +7,7 @@ project(dsac)
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
-add_executable(dsac src/main.cpp src/vector.cpp)
+add_executable(dsac src/main.cpp)
 
 add_executable(my_test 
                 tests/test_vector.cpp
