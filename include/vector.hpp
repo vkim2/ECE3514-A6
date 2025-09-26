@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <algorithm>  //for std::max
+#include <stdexcept>  //for throwing out of bounds exception
 
 namespace dsa{
 
@@ -50,7 +51,7 @@ public:
     {
         if (i < 0 || i >= sz)
         {
-            throw "out of bounds error"; // use std error?
+            throw std::out_of_range("out of bounds error");
         }
         return data[i];
     }
@@ -60,7 +61,7 @@ public:
     {
         if (i < 0 || i >= sz)
         {
-            throw "out of bounds error";
+            throw std::out_of_range("out of bounds error");
         }
         return data[i];
     }
