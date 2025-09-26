@@ -2,12 +2,6 @@
 
 namespace dsa
 {
-    // empty
-    template <typename T>
-    Vector<T>::Vector()
-    {
-    }
-
     // capacity
     template <typename T>
     int Vector<T>::capacity() const

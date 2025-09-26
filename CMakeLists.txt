@@ -7,10 +7,10 @@ project(dsac)
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
-add_executable(dsac src/main.cpp)
+add_executable(dsac src/main.cpp src/vector.cpp)
 
 add_executable(my_test 
-                tests/test_vector.cpp 
+                tests/test_vector.cpp
                 #tests/test_vector_iterator.cpp
                 #tests/test_vector_const_iterator.cpp
                 #tests/test_vector_rule_of_five.cpp
