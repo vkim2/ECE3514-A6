@@ -56,7 +56,7 @@ public:
         return data[i];
     }
 
-    // at function for non const]
+    // at function for non const
     T& at(int i)
     {
         if (i < 0 || i >= sz)

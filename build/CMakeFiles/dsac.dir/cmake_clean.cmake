@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dsac.dir/src/main.cpp.o"
   "CMakeFiles/dsac.dir/src/main.cpp.o.d"
-  "CMakeFiles/dsac.dir/src/vector.cpp.o"
-  "CMakeFiles/dsac.dir/src/vector.cpp.o.d"
   "dsac"
   "dsac.pdb"
 )

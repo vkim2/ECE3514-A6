@@ -176,30 +176,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsac.dir/build.make CMakeFiles/dsac.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/vector.o: src/vector.cpp.o
-.PHONY : src/vector.o
-
-# target to build an object file
-src/vector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsac.dir/build.make CMakeFiles/dsac.dir/src/vector.cpp.o
-.PHONY : src/vector.cpp.o
-
-src/vector.i: src/vector.cpp.i
-.PHONY : src/vector.i
-
-# target to preprocess a source file
-src/vector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsac.dir/build.make CMakeFiles/dsac.dir/src/vector.cpp.i
-.PHONY : src/vector.cpp.i
-
-src/vector.s: src/vector.cpp.s
-.PHONY : src/vector.s
-
-# target to generate assembly for a file
-src/vector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsac.dir/build.make CMakeFiles/dsac.dir/src/vector.cpp.s
-.PHONY : src/vector.cpp.s
-
 tests/test_vector.o: tests/test_vector.cpp.o
 .PHONY : tests/test_vector.o
 
@@ -238,9 +214,6 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/vector.o"
-	@echo "... src/vector.i"
-	@echo "... src/vector.s"
 	@echo "... tests/test_vector.o"
 	@echo "... tests/test_vector.i"
 	@echo "... tests/test_vector.s"
